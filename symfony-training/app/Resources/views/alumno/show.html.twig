@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Alumno</h1>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Apellidopaterno</th>
+                <th>Apellidomaterno</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ alumno.id }}</td>
+                <td>{{ alumno.nombre }}</td>
+                <td>{{ alumno.apellidoPaterno }}</td>
+                <td>{{ alumno.apellidoMaterno }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('alumno_index') }}">Back to the list</a>
+        </li>
+    </ul>
+{% endblock %}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link href="{{ asset('bundles/app/css/bootstrap-theme.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('bundles/app/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          {% block body %}{% endblock %}
+        </div>
+      </nav>
+      {% block javascripts %}{% endblock %}
+      <script src="{{ asset('bundles/app/js/bootstrap.min.js') }}" type="text/javascript"></script>
+    </body>
+</html>

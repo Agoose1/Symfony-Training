@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Carrera</h1>
+
+    <table class="table table-striped">
+        <thead>
+            <th>Id</th>
+            <th>Nombre</th>
+        </thead>
+        <tbody>
+          <tr>
+              <td>{{ carrera.id }}</td>
+              <td>{{ carrera.nombre }}</td>
+          </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('carrera_index') }}">Back to the list</a>
+        </li>
+    </ul>
+{% endblock %}

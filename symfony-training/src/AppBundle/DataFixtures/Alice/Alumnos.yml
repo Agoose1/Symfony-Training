@@ -1,0 +1,63 @@
+AppBundle\Entity\Alumno:
+  alumno{1..10}:
+    nombre: <firstName()>
+    apellidoPaterno: <lastName()>
+    apellidoMaterno: <lastName()>
+    carrera: @carrera1
+
+  alumno{11..20}:
+    nombre: <firstName()>
+    apellidoPaterno: <lastName()>
+    apellidoMaterno: <lastName()>
+    carrera: @carrera2
+
+  alumno{21..30}:
+    nombre: <firstName()>
+    apellidoPaterno: <lastName()>
+    apellidoMaterno: <lastName()>
+    carrera: @carrera3
+
+  alumno{31..40}:
+    nombre: <firstName()>
+    apellidoPaterno: <lastName()>
+    apellidoMaterno: <lastName()>
+    carrera: @carrera4
+
+  alumno{41..50}:
+    nombre: <firstName()>
+    apellidoPaterno: <lastName()>
+    apellidoMaterno: <lastName()>
+
+    apellidoPaterno: <lastName()>
+    apellidoMaterno: <lastName()>
+    carrera: @carrera5
+
+  alumno{51..60}:
+    nombre: <firstName()>
+    apellidoPaterno: <lastName()>
+    apellidoMaterno: <lastName()>
+    carrera: @carrera6
+
+  alumno{61..70}:
+    nombre: <firstName()>
+    apellidoPaterno: <lastName()>
+    apellidoMaterno: <lastName()>
+    carrera: @carrera7
+
+  alumno{71..80}:
+    nombre: <firstName()>
+    apellidoPaterno: <lastName()>
+    apellidoMaterno: <lastName()>
+    carrera: @carrera8
+
+  alumno{81..90}:
+    nombre: <firstName()>
+    apellidoPaterno: <lastName()>
+    apellidoMaterno: <lastName()>
+    carrera: @carrera9
+
+  alumno{91..100}:
+    nombre: <firstName()>
+    apellidoPaterno: <lastName()>
+    apellidoMaterno: <lastName()>
+    carrera: @carrera10
